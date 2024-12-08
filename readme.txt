@@ -11,6 +11,7 @@ run: npm install
 
  vagrant : ubuntu 20.04
 ----------------------APACHE CONFIGURATION ------------------------------------
+--------------------- must enable proxy pass  / reverse proxy to your apache (ubuntu)-----------------
  apache virtualhost configuration
  <VirtualHost *:80>
        
